@@ -1,2 +1,4 @@
-# Frontend Challange
-## Results summary component
+Frontend Challenge 
+# Results summary component
+
+`HTML` `CSS` `JS/TS` `Vite` `React`
