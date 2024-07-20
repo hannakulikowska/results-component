@@ -1,8 +1,8 @@
 import './App.css';
-import Wrapper from './components/Wrapper';
+import CardGroup from './components/CardGroup';
 
 function App() {
-  return <Wrapper />;
+  return <CardGroup />;
 }
 
 export default App;

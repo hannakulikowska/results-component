@@ -30,15 +30,13 @@ body {
   margin: 0;
   padding: 0;
   display: flex;
-  place-items: center;
+  justify-content: center;
+  align-items: flex-start;
   min-width: 320px;
   min-height: 100vh;
-  background-image: url(/src/assets/img/bg.webp);
-  background-size: cover;
-  background-repeat: no-repeat;
 
-  @media screen and (min-width: 425px) {
-    padding: 4% 8%;
+  @media screen and (min-width: 576px) {
+    align-items: center;
   }
 }
 

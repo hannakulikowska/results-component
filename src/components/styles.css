@@ -1,0 +1,20 @@
+.br-bottom {
+  border-bottom-left-radius: 2rem !important;
+  border-bottom-right-radius: 2rem !important;
+}
+
+@media screen and (min-width: 576px) {
+  .br-4 {
+    border-radius: 2rem !important;
+  }
+}
+
+.shadow-md {
+  box-shadow: none;
+}
+
+@media screen and (min-width: 576px) {
+  .shadow-md {
+    box-shadow: var(--bs-box-shadow);
+  }
+}
